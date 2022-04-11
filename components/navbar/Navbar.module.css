@@ -1,0 +1,31 @@
+.flex {
+    display: flex;
+    padding: 20px 20px 20px;
+    border: solid 1px;
+    background: aquamarine;
+}
+
+.flexItem {
+    margin: 0 20px;
+    font-size: 20px;
+    border: solid 2px;
+    width: 80px;
+    background: floralwhite;
+    border-radius: 30%;
+    height: 40px;
+}
+
+.flexItem:hover {
+    background: aqua;
+}
+
+.active {
+    margin: 0 20px;
+    font-size: 20px;
+    border: solid 2px;
+    width: 80px;
+    background: floralwhite;
+    border-radius: 30%;
+    height: 40px;
+    background: aqua;
+}

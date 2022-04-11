@@ -1,0 +1,46 @@
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 0 5px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px 0 40px;
+
+}
+.flexContainer:hover {
+    background: azure;
+}
+
+.button {
+    margin-left: 12px;
+    background: blue;
+    height: 50px;
+    width: 50px;
+}
+.button:hover {
+    background: darkblue;
+}
+
+.buttonFilter {
+    margin-left: 12px;
+    background: cornflowerblue;
+    height: 40px;
+    width: 100px;
+}
+
+.input {
+    font-size: 24px;
+    padding: 10px;
+}
+.inputSave {
+    height: 50px;
+    width: 400px;
+    font-size: 25px;
+}
+
+.close {
+    font-size: 24px;
+    padding: 10px;
+    text-decoration: line-through;
+    color: darkgray;
+}
